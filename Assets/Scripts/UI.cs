@@ -11,12 +11,16 @@ public class UI : MonoBehaviour
     [SerializeField] public GameObject loadPanel;
     [SerializeField] public GameObject aboutPanel;
     [SerializeField] public GameObject quitConfirmationPanel;
+    [SerializeField] private GameObject panelToHide;    //to assign ANY panel in inspector
 
     //buttons on main menu (scene 1)
     [SerializeField] Button startButton;
     [SerializeField] Button settinsButton;
+    [SerializeField] Button closeSettinsButton;
     [SerializeField] Button loadButton;
+    [SerializeField] Button closeLoadButton;
     [SerializeField] Button aboutButton;
+    [SerializeField] Button closeAboutButton;
     [SerializeField] Button quitButton;           
     [SerializeField] Button confQuitButton;
     [SerializeField] Button denyQuitButton;
@@ -49,7 +53,6 @@ public class UI : MonoBehaviour
             aboutPanel.SetActive(true);
         }
     }
-    
     public void QuitConfirmation()
     {        
         if (quitButton)
@@ -64,13 +67,10 @@ public class UI : MonoBehaviour
             Application.Quit(); //close application after confirming on conf screen
         }
     }
-    public void NoQuit()
+
+    public void HidePanel()  //hide assigned panel
     {
-        if (denyQuitButton)
-        {
-            quitConfirmationPanel.SetActive(false);  
-        }
+        if (panelToHide != null)
+            panelToHide.SetActive(false);   //if theres a panel active(true) - hide it
     }
-
-
 }
