@@ -2994,6 +2994,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: AboutPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 2172616278167712947, guid: 1518c64be00d8b6349ea359fe967f753, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212727713103412515, guid: 1518c64be00d8b6349ea359fe967f753, type: 3}
+      propertyPath: m_Color.a
+      value: 0.78039217
+      objectReference: {fileID: 0}
     - target: {fileID: 7364199384797432268, guid: 1518c64be00d8b6349ea359fe967f753, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3091,6 +3099,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SettingsPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 684244176016195805, guid: e48d072ba05cfff6f979eeccdcaa4bed, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734360185448418226, guid: e48d072ba05cfff6f979eeccdcaa4bed, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2062315194103411079, guid: e48d072ba05cfff6f979eeccdcaa4bed, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3169,6 +3185,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2062315194103411079, guid: e48d072ba05cfff6f979eeccdcaa4bed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888927180570131364, guid: e48d072ba05cfff6f979eeccdcaa4bed, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4269022128885928189, guid: e48d072ba05cfff6f979eeccdcaa4bed, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7300405006629315725, guid: e48d072ba05cfff6f979eeccdcaa4bed, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681541907168634359, guid: e48d072ba05cfff6f979eeccdcaa4bed, type: 3}
+      propertyPath: m_Color.a
+      value: 0.78039217
+      objectReference: {fileID: 0}
+    - target: {fileID: 8190074932833230298, guid: e48d072ba05cfff6f979eeccdcaa4bed, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179883954635744847, guid: e48d072ba05cfff6f979eeccdcaa4bed, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3267,6 +3307,14 @@ PrefabInstance:
     - target: {fileID: 5936930011760968001, guid: fd32cf04e7a2e4b70b2382bca3fcc37d, type: 3}
       propertyPath: m_Name
       value: LoadPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 5936930011760968001, guid: fd32cf04e7a2e4b70b2382bca3fcc37d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6493574902657971667, guid: fd32cf04e7a2e4b70b2382bca3fcc37d, type: 3}
+      propertyPath: m_Color.a
+      value: 0.78039217
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
