@@ -1,0 +1,44 @@
+﻿title: Start
+color: orange
+position: -699,-224
+---
+// black screen
+RANDOM: “Shit, there's a fight!”
+<<jump Flashback>>
+===
+
+title: Flashback
+position: -459,-224
+---
+// background: flashback bloody hands
+DAN: <i>No, it wasn't me… I don't understand what happened. I didn't do anything wrong right?</i>
+RANDOM: “Somebody call the ambulance!”
+RANDOM: “Party's over, turn off that fucking music!”
+DAN: <i>I don't remember what happened. Why I don't remember anything?</i>
+// bloody hands background abruptly changes to black screen
+DAN: “What have I done?”
+<<jump Chapter1Load>>
+===
+
+title: Chapter1Load
+color: orange
+position: -222,-225
+---
+// black screen;  ani - clock, hour arrow turning from 00 to 01
+Chapter 1 
+Beginning
+17th of April, 2031
+<<jump Chapter1Start>>
+===
+
+title: Chapter1Start
+position: 19,-221
+---
+// black screen
+DAN: “It happened not too long ago, even though feels like centuries have passed.”
+DAN: “We had a good life, rented a nice place, and were planning to get married soon. I spent ages trying to find a perfect ring and kept asking my friends for advice.”
+DAN: “I was so nervous to ask, I don't remember the last time I felt so nauseous.”
+DAN: “But I got back to my senses and proposed, and she said yes. She was smiling and crying from happiness after regaining her composure, and so did I. I've never felt happier in my life while putting a ring on her finger and kissing her.”
+DAN: “And then, soon after, Ashley went missing.” 
+// Dan in an airport
+===

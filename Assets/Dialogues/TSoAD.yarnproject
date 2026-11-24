@@ -1,0 +1,18 @@
+﻿{
+  "projectFileVersion": 5,
+  "sourceFiles": [
+    "**/*.yarn"
+  ],
+  "excludeFiles": [
+    "**/*~/*",
+    "./Samples/Yarn Spinner*/*"
+  ],
+  "localisation": {},
+  "baseLanguage": "en",
+  "definitions": [
+    "${workspaceRoot}/ProjectSettings/Packages/dev.yarnspinner/**/*.ysls.json"
+  ],
+  "compilerOptions": {
+    "diagnosticsSeverity": {}
+  }
+}
