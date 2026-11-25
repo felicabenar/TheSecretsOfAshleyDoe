@@ -1,0 +1,9 @@
+{
+"version":3,
+"commands":[
+{"yarnName":"dialogue_delay","definitionName":"global::DialogueDelayScript.DialogueDelay","fileName":"The Secrets of Ashley Doe/Assets/Scripts/DialogueDelayScript.cs","language":"csharp","async":true,"containsErrors":false,"errorCodes":["YS1001"],"location":{"start":{"line":6,"character":26},"end":{"line":6,"character":39}},"parameters":[]}
+],
+"functions":[
+
+]
+}
